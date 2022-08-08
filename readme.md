@@ -21,7 +21,7 @@
 
 <hr>
 
-### If you are having issues deploying bot you may contact me through this [link](https://t.me/Selling24x7) and I will try to respond as soon as possible <3.
+### If you are having issues deploying bot/want ready to use personal bot you may contact me through this [link](https://t.me/Selling24x7) and I will try to respond as soon as possible <3.
 
 ## 🍁 About This Bot :
 
