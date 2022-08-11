@@ -20,7 +20,7 @@ async def sts(c: Client, m: Message):
     user_id=m.from_user.id
     if user_id in Var.OWNER_ID:
         total_users = await db.total_users_count()
-        await m.reply_text(text=f"Total Users in DB: {total_users}", parse_mode="Markdown", quote=True)
+        await m.reply_text(text=f"Total Users in DB: {total_users}", quote=True)
         
         
 @StreamBot.on_message(filters.command("broadcast") & filters.private  & filters.user(list(Var.OWNER_ID)))
