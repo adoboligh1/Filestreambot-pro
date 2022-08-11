@@ -151,8 +151,7 @@ async def channel_receive_handler(bot, broadcast):
         online_link = f"{Var.URL}{quote_plus(get_name(log_msg))}/{str(log_msg.id)}?hash={get_hash(log_msg)}"
         await log_msg.reply_text(
             text=f"**Cʜᴀɴɴᴇʟ Nᴀᴍᴇ:** `{broadcast.chat.title}`\n**Cʜᴀɴɴᴇʟ ID:** `{broadcast.chat.id}`\n**Rᴇǫᴜᴇsᴛ ᴜʀʟ:** {stream_link}",
-            quote=True,
-            parse_mode="Markdown"
+            quote=True
         )
         await bot.edit_message_reply_markup(
             chat_id=broadcast.chat.id,
